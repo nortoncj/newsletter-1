@@ -21,6 +21,12 @@
         font-family: "Open Sans", sans-serif;
         margin: auto;
       }
+      .top-header{
+        background: white;
+              padding: 1rem 1rem 0.1rem 1rem;
+              border-bottom: white 1px solid;
+              position: relative;
+      }
       .header {
         width: 50rem;
     width: 100%;
@@ -62,6 +68,25 @@
       }
       .img {
         width:15.5rem;
+      }
+      .img1 {
+        padding: 0 0 0 1rem; margin: 0;
+      }
+      .mini-logo {
+        width: 12rem;
+      }
+      .logo-banner {
+        color: rgb(193, 20, 20); 
+        font-weight: 600;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        text-shadow: black 5px;
+      }
+      .mini-logo2 {
+        width:8rem;
+      }
+      .footer{
+        margin: auto; background-color: black; color: white;
       }
       
     }
@@ -76,6 +101,7 @@
         font-family: "Open Sans", sans-serif;
         margin: auto;
       }
+
       .header {
         width: 50rem;
     width: 100%;
@@ -120,8 +146,7 @@
       }
     }
 
-    /* Mobile */
-    @media only screen and (max-width: 400px) {
+    /* Mobile */    @media only screen and (max-width: 600px) {
       html,
       body {
         max-width: 400px;
@@ -130,17 +155,18 @@
         font-family: "Open Sans", sans-serif;
         margin: auto;
       }
-
-      table {
-        max-width: 400px;
+      .top-header{
+        background: white;
+              padding: 0.5rem 0.5rem 0.1rem .5rem;
+              border-bottom: white 1px solid;
+              position: relative;
       }
       .header {
-        width: 50rem;
-    width: 100%;
+        width: 25rem;
       }
       .section {
         width: 100%;
-        display: flex;
+        
       }
       .section-left {
         display:inline;
@@ -163,19 +189,43 @@
         align-content: center;
       }
       .text1 {
-        color: white; margin: auto; font-size: 0.8rem; font-weight: 200;
+        color: white; margin: auto; font-size: .8rem; font-weight: 200;
       }
       .text2 {
-        margin: auto; font-weight: 600; font-size: 0.8rem;
+        margin: auto; font-weight: 600; font-size: 1.5rem;
+        width: 18rem;
+        display: flex;
+        
+        
       }
       .text3 {
-        color: black; margin: auto; font-size: 0.8rem; font-weight: 200; line-height: 1.2rem;
+        color: black; margin: auto; font-size: .8rem; font-weight: 200; line-height: 1.3rem;
       }
       .text4 {
         padding:2rem;
       }
       .img {
         width:7.5rem;
+      }
+      .img1 {
+        padding: 0 0 0 1rem; margin: 0;
+      }
+      .mini-logo {
+        width: 8rem;
+      }
+      .logo-banner {
+        color: rgb(193, 20, 20); 
+        font-weight: 600;
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-shadow: black 5px;
+      }
+      .mini-logo2 {
+        width:2rem;
+      }
+      .footer{
+        width: 25rem;
+        margin: auto; background-color: black; color: white;
       }
       
     }
@@ -188,31 +238,24 @@
   </head>
   <body>
     <table
-      
-      
-    
+    width="100%"
       border="0"
       cellspacing="0"
       cellpadding="0"
+      
     >
       <tr>
         <td>
           <!-- Header Container Start -->
           <table
             align="center"
-           class="header"
+           class="header top-header"
             height=""
-            style="
-              background: white;
-              padding: 1rem 1rem 0.1rem 1rem;
-              border-bottom: white 1px solid;
-              position: relative;
-            "
           >
             <tr>
               <td>
                 <img
-                  style="width: 8rem"
+                class="mini-logo"
                   align="left"
                   src="./img/Brand/BC-Logo-1-480x148.png"
                   alt="bbc"
@@ -221,7 +264,7 @@
               <td>
                 <h1
                   align="center"
-                  style="color: rgb(193, 20, 20); font-weight: 600; font-size: 1.5rem; text-transform: uppercase; text-shadow: black 5px;"
+                  class="logo-banner"
                 >
                   baller mindset
                 </h1>
@@ -230,10 +273,10 @@
           </table>
           <!-- Header End -->
           <!-- Intro Section Start -->
-          <table class="section" align="center"  style="background-color: black; ">
+          <table class="section split" align="center"  style="background-color: black; ">
             <tr>
                 <td>
-                    <table width="60%" align="center" class="section-left" >
+                    <table align="center" class="section-left" >
                         <tr>
                             <td>
                               <p class="text1" >Yo, I used to be straight-up broke, like, rock bottom, ramen noodle type shit. My pockets were flatter than a Kardashian's brain. And don't even get me started on my body – I was soft as hell. I mean, I was that dude living paycheck to paycheck, dreading the first of the month.</p>  
@@ -245,10 +288,10 @@
                     
                 </td>
                 <td>
-                    <table width="40%" align="center" class="section-right" >
+                    <table  align="center" class="section-right" >
                         <tr>
                             <td>
-                              <img class="img" style=" padding: 0 0 0 1rem; margin: 0;" src="./img/Brand/BrandonCarter-about-400x400.jpg" align="right" alt="headshot"> 
+                              <img class="img img1" src="./img/Brand/BrandonCarter-about-400x400.jpg" align="right" alt="headshot"> 
                        
                             </td>
                             
@@ -278,7 +321,7 @@
                             <td>
                               <img class="img" align="left" src="./img/Brand/upper.png" alt="upper">
                               <img
-                  style="width: 8rem"
+                              class="mini-logo2"
                   align="left"
                   src="./img/Brand/BC-Logo-1-480x148.png"
                   alt="bbc"
@@ -318,7 +361,7 @@
         </table>
         <!-- Section End -->
         <!-- Footer Section Start -->
-        <table style="margin: auto; background-color: black; color: white;" width="100%" align="center">
+        <table class="footer" width="100%" align="center">
             <tr>
                 <td align="center">
                    <p>© 2021 Brandon Carter| All rights reserved| <a style="color:#fff; text-decoration: underline;" href="https://www.brandoncarter.com/">www.brandoncarter.com</a>  </p> 
