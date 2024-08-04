@@ -11,7 +11,8 @@
       rel="stylesheet"
     />
     <style>
-    
+      /* Desktop */
+      @media only screen and (min-width: 960px) {    
       html,
       body {
         max-width: 800px;
@@ -47,6 +48,132 @@
         align-items: center;
         align-content: center;
       }
+      .text1 {
+        color: white; margin: auto; font-size: 1.2rem; font-weight: 200;
+      }
+      .text2 {
+        margin: auto; font-weight: 600; font-size: 1.5rem;
+      }
+      .text3 {
+        color: black; margin: auto; font-size: 1.3rem; font-weight: 200; line-height: 2.5rem;
+      }
+      .text4 {
+        padding:2rem;
+      }
+      .img {
+        width:15.5rem;
+      }
+      
+    }
+
+    /* Mid-Sizes */
+    @media only screen and (max-width: 960px) {
+      html,
+      body {
+        max-width: 800px;
+        width: 50rem;
+        background: #ecdfdf;
+        font-family: "Open Sans", sans-serif;
+        margin: auto;
+      }
+      .header {
+        width: 50rem;
+    width: 100%;
+      }
+      .section {
+        width: 100%;
+      }
+      .section-left {
+        display:inline;
+        justify-content: left;
+        padding-left:0px;
+        margin-left:2.5rem;
+        line-height: 1.5rem;
+        
+      }
+      .section-right {
+        padding-left:0px;
+        margin-left:4rem;
+      }
+      .center {
+        padding: 1.5rem;
+        display: block;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        align-content: center;
+      }
+      .text1 {
+        color: white; margin: auto; font-size: 1.2rem; font-weight: 200;
+      }
+      .text2 {
+        margin: auto; font-weight: 600; font-size: 1.5rem;
+      }
+      .text3 {
+        color: black; margin: auto; font-size: 1.3rem; font-weight: 200; line-height: 2.5rem;
+      }
+      .text4 {
+        padding:2rem;
+      }
+      .img {
+        width:15.5rem;
+      }
+    }
+
+    /* Mobile */
+    @media only screen and (max-width: 400px) {
+      html,
+      body {
+        max-width: 400px;
+        width: 25rem;
+        background: #ecdfdf;
+        font-family: "Open Sans", sans-serif;
+        margin: auto;
+      }
+      .header {
+        width: 50rem;
+    width: 100%;
+      }
+      .section {
+        width: 100%;
+        display: flex;
+      }
+      .section-left {
+        display:inline;
+        justify-content: left;
+        padding-left:0px;
+        margin-left:2.5rem;
+        line-height: 1.5rem;
+        
+      }
+      .section-right {
+        padding-left:0px;
+        margin-left:4rem;
+      }
+      .center {
+        padding: 1.5rem;
+        display: block;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        align-content: center;
+      }
+      .text1 {
+        color: white; margin: auto; font-size: 0.8rem; font-weight: 200;
+      }
+      .text2 {
+        margin: auto; font-weight: 600; font-size: 0.8rem;
+      }
+      .text3 {
+        color: black; margin: auto; font-size: 0.8rem; font-weight: 200; line-height: 1.2rem;
+      }
+      .text4 {
+        padding:2rem;
+      }
+      .img {
+        width:7.5rem;
+      }
+    }
 
 
       
@@ -104,7 +231,7 @@
                     <table width="60%" align="center" class="section-left" >
                         <tr>
                             <td>
-                              <p style="color: white; margin: auto; font-size: 1.2rem; font-weight: 200;">Yo, I used to be straight-up broke, like, rock bottom, ramen noodle type shit. My pockets were flatter than a Kardashian's brain. And don't even get me started on my body – I was soft as hell. I mean, I was that dude living paycheck to paycheck, dreading the first of the month.</p>  
+                              <p class="text1" >Yo, I used to be straight-up broke, like, rock bottom, ramen noodle type shit. My pockets were flatter than a Kardashian's brain. And don't even get me started on my body – I was soft as hell. I mean, I was that dude living paycheck to paycheck, dreading the first of the month.</p>  
                             </td>
                             
                         </tr>
@@ -116,7 +243,7 @@
                     <table width="40%" align="center" class="section-right" >
                         <tr>
                             <td>
-                              <img style="width:15.5rem; padding: 0 0 0 1rem; margin: 0;" src="./img/Brand/BrandonCarter-about-400x400.jpg" align="right" alt="headshot"> 
+                              <img class="img" style=" padding: 0 0 0 1rem; margin: 0;" src="./img/Brand/BrandonCarter-about-400x400.jpg" align="right" alt="headshot"> 
                        
                             </td>
                             
@@ -131,7 +258,7 @@
             <table class="section center" align="center"  style="background-color: white;">
                 <tr>
                     <td>
-                      <p align="center" style="margin: auto; font-weight: 600; font-size: 1.5rem;"> But then, I snapped. I was tired of being broke and dusty. So I flipped the script, hit the gym harder than a Rocky montage, and started stacking that paper.</p>  
+                      <p align="center" class="text2" > But then, I snapped. I was tired of being broke and dusty. So I flipped the script, hit the gym harder than a Rocky montage, and started stacking that paper.</p>  
                      
                     </td>
                 </tr>
@@ -144,7 +271,7 @@
                     <table width="50%" align="left" class="section-left" >
                         <tr>
                             <td>
-                              <img style="width:10rem;" align="left" src="./img/Brand/upper.png" alt="upper">
+                              <img class="img" align="left" src="./img/Brand/upper.png" alt="upper">
                               <img
                   style="width: 8rem"
                   align="left"
@@ -160,7 +287,7 @@
                     <table width="70%" align="left" class="section-left" width=>
                         <tr>
                             <td>
-                              <p style="color: black; margin: auto; font-size: 1.3rem; font-weight: 200; line-height: 2.5rem;">
+                              <p class="text3">
                                 It wasn’t easy. There were late nights, early mornings, and plenty of self-doubt. But I pushed through the bullshit and figured out how to make money work for me, not the other way around. Now, I’m talking about living life on my own terms, you know?
                                 </p>
                               </td>
@@ -180,7 +307,7 @@
            
             <tr>
                 <td align="center">
-                    <p width="100%" style="font-weight: 600; font-size: 1.4rem; padding:2rem;">So if you’re tired of counting pennies and poverty, listen up. I’m about to drop some serious knowledge on how to level up your finances and your fitness. It's time to trade that broke boy life for a boss lifestyle.</p>
+                    <p width="100%" class="text2 text4">So if you’re tired of counting pennies and poverty, listen up. I’m about to drop some serious knowledge on how to level up your finances and your fitness. It's time to trade that broke boy life for a boss lifestyle.</p>
                 </td>
             </tr>
         </table>
